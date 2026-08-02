@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Xcode — lokalna korisnička podešavanja
+xcuserdata/
+*.xcuserstate
+
+# Xcode — build rezultati
+build/
+DerivedData/
+*.hmap
+
+# Xcode — privremeni i stari metadata fajlovi
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Kompajlirani objekti i debug paketi
+*.o
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+# Metal/Xcode GPU capture
+*.gputrace
+
+# Instruments rezultati
+*.trace
