@@ -10,6 +10,7 @@
 		D8479D26301F930300B889E6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8479D25301F930300B889E6 /* Metal.framework */; };
 		D8479E4B301FB6E100B889E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8479D23301F92FA00B889E6 /* Foundation.framework */; };
 		D8479E4F301FB71A00B889E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8479E4E301FB71A00B889E6 /* QuartzCore.framework */; };
+		D876AD2F3022956000D43AAC /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D876AD2E3022956000D43AAC /* MetalKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		D8479D23301F92FA00B889E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8479D25301F930300B889E6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		D8479E4E301FB71A00B889E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D876AD2E3022956000D43AAC /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876AD2F3022956000D43AAC /* MetalKit.framework in Frameworks */,
 				D8479E4F301FB71A00B889E6 /* QuartzCore.framework in Frameworks */,
 				D8479E4B301FB6E100B889E6 /* Foundation.framework in Frameworks */,
 				D8479D26301F930300B889E6 /* Metal.framework in Frameworks */,
@@ -85,6 +88,7 @@
 		D8479D22301F92FA00B889E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D876AD2E3022956000D43AAC /* MetalKit.framework */,
 				D8479E4E301FB71A00B889E6 /* QuartzCore.framework */,
 				D8479D25301F930300B889E6 /* Metal.framework */,
 				D8479D23301F92FA00B889E6 /* Foundation.framework */,
